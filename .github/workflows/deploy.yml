@@ -35,7 +35,14 @@ jobs:
           JEKYLL_ENV: production
           SITE_URL: ${{ steps.pages.outputs.origin }}
           SITE_BASE_PATH: ${{ steps.pages.outputs.base_path }}
-        run: bundle exec jekyll build --url "$SITE_URL" --baseurl "$SITE_BASE_PATH"
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          config = "url: " + json.dumps(os.environ["SITE_URL"]) + "\nbaseurl: " + json.dumps(os.environ["SITE_BASE_PATH"]) + "\n"
+          Path("_config.pages.yml").write_text(config, encoding="utf-8")
+          PY
+          bundle exec jekyll build --config _config.yml,_config.pages.yml
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
