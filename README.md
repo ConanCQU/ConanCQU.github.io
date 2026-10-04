@@ -24,7 +24,7 @@ The workflow derives the deployment URL and path from GitHub Pages, so it also s
 | Online CV                | `_data/cv.yml`            |
 | Email and GitHub links   | `_data/socials.yml`       |
 | Name, URL, theme options | `_config.yml`             |
-| Portrait                 | `assets/img/prof_pic.jpg` |
+| Portrait                 | `assets/img/avatar.png` |
 
 The content was prepared from the supplied resume and the updated admission information. Education dates, a graduate degree type, and a supervisor are omitted because they were not supplied. FlyWithMap is marked **in preparation for CVPR**, not as an accepted publication. The original resume PDF and its phone number are not included in the website.
 

@@ -6,7 +6,7 @@ subtitle: Chongqing University · Incoming at <a href="https://sysu-hcp.net/">SY
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: avatar.png
   image_circular: false
   more_info: >
     <p>彭博 · Bo Peng</p>
@@ -20,6 +20,12 @@ latest_posts:
 ---
 
 <style>
+.profile img {
+  background-color: #fff;
+  border-radius: 50% !important;
+  box-shadow: none !important;
+  filter: grayscale(1);
+}
 @media (max-width: 575.98px) {
   .profile {
     width: 160px;
