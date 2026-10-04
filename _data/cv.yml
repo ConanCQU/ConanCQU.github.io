@@ -1,0 +1,62 @@
+cv:
+  name: Bo Peng (彭博)
+  label: Computer Science Undergraduate
+  email: conancqu@outlook.com
+  location: Chongqing, China
+  summary: Undergraduate at Chongqing University, admitted to the HCP Lab at Sun Yat-sen University through postgraduate recommendation.
+  social_networks:
+    - network: GitHub
+      username: ConanCQU
+  sections:
+    Education:
+      - institution: Chongqing University
+        location: Chongqing, China
+        url: https://www.cqu.edu.cn/
+        area: Computer Science and Technology (Excellence Program)
+        studyType: Undergraduate
+        highlights:
+          - "GPA: 3.81/4.0."
+          - "Class rank: 8/309 over the first six semesters."
+          - "Course scores: Data Structures and Algorithms 92; Machine Learning 91; Database Systems 93; Operating Systems 97; Computer Networks 97."
+      - institution: Sun Yat-sen University
+        url: https://sysu-hcp.net/
+        area: Human Cyber Physical Intelligence Integration Lab (HCP)
+        studyType: Incoming
+        highlights:
+          - Admitted through postgraduate recommendation; enrollment pending.
+    Projects:
+      - name: FlyWithMap
+        start_date: 2025-11
+        end_date: present
+        summary: Project lead (November 2025–present) — semantic-map-driven instruction generation for UAV vision-and-language navigation.
+        highlights:
+          - Built a pipeline from semantic mapping and 3D path planning to route abstraction and agent-adapted instruction generation.
+          - Studied how instruction organization affects closed-loop navigation performance without fine-tuning navigation agents.
+          - Improved mean navigation success rate by 9.85 percentage points across multiple agents.
+          - Manuscript in preparation for CVPR.
+      - name: Unitree H1 Teleoperation Data Collection
+        date: 2025
+        summary: Research contribution (June–August 2025) using Open-Teleoperation and Apple Vision Pro.
+        highlights:
+          - Collected dual-arm manipulation trajectories for grasping and placing target objects.
+          - Annotated action sequences with language for vision-language-action alignment.
+          - Filtered motion jitter, singular poses, and semantically misaligned samples.
+    Honors and Awards:
+      - title: National Scholarship
+        date: 2025
+        summary: 2024–2025 academic year.
+      - title: China Collegiate Computing Design Competition
+        date: 2026
+        summary: National third prize.
+      - title: Mathematical Contest in Modeling (MCM)
+        date: 2026
+        summary: M Award.
+      - title: National English Competition for College Students
+        date: 2025
+        summary: Third prize.
+      - title: Mathematical Contest in Modeling (MCM)
+        date: 2025
+        summary: H Award.
+    Languages:
+      - name: English
+        summary: "CET-6: 625."
