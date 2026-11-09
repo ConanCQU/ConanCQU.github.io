@@ -16,17 +16,17 @@ The workflow derives the deployment URL and path from GitHub Pages, so it also s
 
 ## Edit content
 
-| Content                  | File                      |
-| ------------------------ | ------------------------- |
-| Homepage                 | `_pages/about.md`         |
-| Research                 | `_pages/research.md`      |
-| Publications             | `_pages/publications.md`  |
-| Online CV                | `_data/cv.yml`            |
-| Email and GitHub links   | `_data/socials.yml`       |
-| Name, URL, theme options | `_config.yml`             |
-| Portrait                 | `assets/img/avatar.png` |
+| Content                  | File                     |
+| ------------------------ | ------------------------ |
+| Homepage                 | `_pages/about.md`        |
+| Research                 | `_pages/research.md`     |
+| Publications             | `_pages/publications.md` |
+| Online CV                | `_data/cv.yml`           |
+| Email and GitHub links   | `_data/socials.yml`      |
+| Name, URL, theme options | `_config.yml`            |
+| Portrait                 | `assets/img/avatar.png`  |
 
-The content was prepared from the supplied resume and the updated admission information. Education dates, a graduate degree type, and a supervisor are omitted because they were not supplied. FlyWithMap is marked **in preparation for CVPR**, not as an accepted publication. The original resume PDF and its phone number are not included in the website.
+The content was prepared from the supplied resume and the updated admission information. Education dates, a graduate degree type, and a supervisor are omitted because they were not supplied. FlyWithMap is described as **ongoing research**, with a manuscript **in preparation**. Its public overview omits unpublished methods, experimental settings, results, and the intended submission venue. The original resume PDF and its phone number are not included in the website.
 
 ## Local preview
 

@@ -11,25 +11,15 @@ nav_order: 1
 
 {: #flywithmap }
 
-**Semantic-map-driven instruction generation for UAV vision-and-language navigation**
+**Map-informed instruction generation for UAV vision-and-language navigation**
 
-_Project lead · November 2025–present · Manuscript in preparation for CVPR_
+_Project lead · November 2025–present · Ongoing research_
 
-UAV vision-and-language navigation often assumes that detailed navigation instructions are already available. In practical settings, a user may instead provide a high-level goal. FlyWithMap studies how to bridge this gap by generating instructions that a navigation agent can execute.
+FlyWithMap explores how environmental maps can support natural-language navigation instructions for UAVs. The project aims to connect navigation goals with guidance that existing navigation agents can follow.
 
-### Approach
+My work spans system development and evaluation, with a focus on the connection between maps, language, and navigation behavior.
 
-- **Semantic environment representation.** Build building-level semantic maps from AirSim semantic segmentation, depth, and scene information.
-- **Geometric planning and route abstraction.** Plan feasible 3D paths, then remove redundant waypoints according to path turns and deviations while preserving key navigation decisions.
-- **Agent-adapted instruction generation.** Convert routes into natural language, controlling action order, segment organization, connection words, action vocabulary, and stopping cues.
-
-The pipeline works with existing navigation agents **without fine-tuning them**. It lets us compare language realization strategies while holding the route, scene, and agent fixed.
-
-### Results
-
-Experiments across multiple navigation agents show a **9.85 percentage-point improvement in mean navigation success rate**. Different agents respond differently to how instructions are organized, motivating agent-adapted generation strategies.
-
-This work is ongoing. The manuscript is **in preparation**.
+This work is ongoing, and a manuscript is in preparation. Further details will be shared when the work is ready for public release.
 
 ---
 

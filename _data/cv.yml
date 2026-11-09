@@ -28,12 +28,11 @@ cv:
       - name: FlyWithMap
         start_date: 2025-11
         end_date: present
-        summary: Project lead (November 2025–present) — semantic-map-driven instruction generation for UAV vision-and-language navigation.
+        summary: Project lead (November 2025–present) — map-informed instruction generation for UAV vision-and-language navigation.
         highlights:
-          - Built a pipeline from semantic mapping and 3D path planning to route abstraction and agent-adapted instruction generation.
-          - Studied how instruction organization affects closed-loop navigation performance without fine-tuning navigation agents.
-          - Improved mean navigation success rate by 9.85 percentage points across multiple agents.
-          - Manuscript in preparation for CVPR.
+          - Investigating how environmental maps can support natural-language guidance for UAV navigation.
+          - Developing and evaluating a research framework connecting maps, language, and navigation behavior.
+          - Ongoing research; manuscript in preparation.
       - name: Unitree H1 Teleoperation Data Collection
         date: 2025
         summary: Research contribution (June–August 2025) using Open-Teleoperation and Apple Vision Pro.

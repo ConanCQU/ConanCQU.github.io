@@ -42,7 +42,7 @@ My research interests lie in **embodied intelligence**, particularly **vision-an
 
 ## Research
 
-**FlyWithMap** — I lead a project on semantic-map-driven instruction generation for UAV vision-and-language navigation. We combine semantic maps, geometric path planning, route abstraction, and agent-adapted language generation, without fine-tuning the navigation agents. Experiments show a **9.85 percentage-point improvement in mean navigation success rate** across multiple agents. A manuscript is in preparation for CVPR. [Read more →]({{ '/research/#flywithmap' | relative_url }})
+**FlyWithMap** — I lead ongoing research on map-informed instruction generation for UAV vision-and-language navigation. The project explores how environmental maps can support natural-language guidance that navigation agents can follow. [Read more →]({{ '/research/#flywithmap' | relative_url }})
 
 **Humanoid teleoperation** — I contributed to a Unitree H1 data collection project using Open-Teleoperation and Apple Vision Pro. My work involved collecting manipulation trajectories, annotating action sequences with language, and filtering data for vision-language-action alignment. [Read more →]({{ '/research/#humanoid-teleoperation' | relative_url }})
 

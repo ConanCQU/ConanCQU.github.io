@@ -9,8 +9,8 @@ nav_order: 2
 
 ## In preparation
 
-**FlyWithMap: Semantic-map-driven instruction generation for UAV vision-and-language navigation**
+**FlyWithMap**
 
-Manuscript in preparation for CVPR.
+Ongoing research on map-informed instruction generation for UAV vision-and-language navigation. Manuscript in preparation.
 
-[Project details →]({{ '/research/#flywithmap' | relative_url }})
+[Project overview →]({{ '/research/#flywithmap' | relative_url }})
