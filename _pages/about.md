@@ -52,4 +52,4 @@ At Chongqing University, my GPA is **3.81/4.0**, and my class rank is **8/309** 
 
 Other honors include a national third prize in the **2026 China Collegiate Computing Design Competition** and an **M Award in the 2026 Mathematical Contest in Modeling**. [View my CV →]({{ '/cv/' | relative_url }})
 
-Feel free to reach out by [email](mailto:conancqu@outlook.com). You can also find me on [GitHub](https://github.com/ConanCQU).
+Feel free to reach out by [email](mailto:20230613@stu.cqu.edu.cn). You can also find me on [GitHub](https://github.com/ConanCQU).
